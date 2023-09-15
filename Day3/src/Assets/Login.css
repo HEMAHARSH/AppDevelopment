@@ -119,19 +119,4 @@ input:focus {
   width: 25vh;
 }
 
-/* -------------------- TABLET OPTIMIZATION -------------------- */
-@media only screen and (min-device-width: 37em) {
-  .cover {
-    width: 60%;
-    height: 70%;
-  }
-}
 
-/* -------------------- DESKTOP OPTIMIZATION -------------------- */
-@media only screen and (min-device-width: 64em) {
-  .cover {
-    left: 32%;
-    width: 30%;
-    height: 65%;
-  }
-}
