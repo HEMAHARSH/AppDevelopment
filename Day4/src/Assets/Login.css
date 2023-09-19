@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("./Poppins-Regular.ttf");
+  font-size: 36px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body {
+  background-image: url("../Images/loginbg.avif");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.layer {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #310a3b;
+  opacity: 0.89;
+  
+}
+.cover1{
+    background-color: #fef9fe;
+    opacity: 0.9;
+    margin-top: 16vh;
+    height: 70vh;
+    margin-left: 120vh;
+    width: 69vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    align-items: center;
+    box-shadow: 0 0.188em 1.55em #f7f7f8;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+input {
+  background-color: rgb(229, 226, 226);
+  width: 50%;
+  min-height: 6vh;
+  border-radius: 0.25em;
+  margin: 0.5em;
+  
+  text-align: center;
+  color: #1a0303;
+  font-family: "Acme", sans-serif;
+  font-size: larger;
+}
+
+input:focus {
+  outline-color: #070607;
+}
+
+.login-btn {
+  width: 40%;
+  min-height: 7vh;
+  margin-bottom: 4em;
+  margin-top: 3vh;
+
+  text-align: center;
+  background-color: #451952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 1.25em;
+  cursor: pointer;
+  color: rgb(252, 253, 254);
+  font-family: "Acme", sans-serif;
+  font-size: 21px;
+}
+
+
+
+.login-btn:hover {
+  transform: scale(1.05);
+}
+
+.account {
+  padding-bottom: 18vh;
+  margin-top: -9vh;
+  margin-bottom: 2vh;
+}
+
+
+.logintxt {
+  font-size: 36px;
+  padding-top: 19%;
+  padding-bottom: 1vh;
+  color: #451952;
+}
+.signup-btn {
+  width: 40%;
+  min-height: 7vh;
+  margin-bottom: 4em;
+  margin-top: 3vh;
+
+  text-align: center;
+  background-color: #451952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 1.25em;
+  cursor: pointer;
+  color: rgb(252, 253, 254);
+  font-family: "Acme", sans-serif;
+  font-size: 21px;
+}
+.signup-btn {
+  margin-top: -18vh;
+  font-size: 21px;
+  width: 25vh;
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+  .cover {
+    width: 60%;
+    height: 70%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+  .cover {
+    left: 32%;
+    width: 30%;
+    height: 65%;
+  }
+}
