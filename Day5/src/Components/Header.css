@@ -1,0 +1,35 @@
+
+.cover123 {
+  background-color: #331a00;
+}
+
+.menu {
+    float: right;
+    position: absolute;
+    padding-top: 5px;
+    width: 83.9%;
+    margin-left: 16%;
+  list-style-type: none;
+background-color: #280909b1;
+
+  
+}
+#disp
+{
+    float: right;
+    padding-top: 5px;
+}
+.menu-item {
+  display: block;
+  float: right;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 10px 16px ;
+
+  
+}
+.picture
+{
+   
+    margin-top: 5px;
+}
