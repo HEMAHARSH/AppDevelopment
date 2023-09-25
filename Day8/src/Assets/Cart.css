@@ -1,0 +1,76 @@
+
+#card-body
+{
+    background-color: rgb(26, 0, 0);
+    opacity: 10;
+    border: 1px solid rgb(131, 130, 130);
+    box-shadow: 6px 6px rgb(254, 253, 253);
+    border-radius: 10px;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 260px;
+    height: 20%;
+    width: 50%;
+    z-index: 1;
+    
+  
+}
+.summary
+{
+  color: burlywood;
+}
+.card2-body
+{ 
+  border:1px solid white;
+  border-radius: 3px;
+  position: absolute;
+ top:24%;
+ right:80%;
+  margin-right: -69.5%;
+  padding: 15px;
+  background-color: rgb(26, 0, 0);
+}
+.datefill
+{
+  position: relative;
+  left:20%;
+}
+.date
+{
+  color: aliceblue;
+}
+#dispcart1
+{
+  color: aliceblue;
+}
+#imagecartcc
+{
+  height: 10%;
+  width:10%;
+}
+.homebodyc {
+  background-image: url("../Images/loginbg.avif");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: auto;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+ z-index: 3;
+}
+
+#layerh {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-color: #090300ef;
+  opacity: 0.9;
+  z-index: 2;
+  
+}
