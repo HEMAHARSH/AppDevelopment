@@ -1,0 +1,98 @@
+
+
+const List = [
+    {
+        id: 1,
+        name: "John Doe",
+        checkindate: "23-09-23",
+        checkoutdate: "24-09-23",
+        roomtypes: "Two sharing",
+        bill: "₹800",
+        status: "Paid",
+      },
+      {
+        id: 2,
+        name: "Kavin",
+        checkindate: "10-09-23",
+        checkoutdate: "24-09-23",
+        roomtypes: "Single Cot",
+        bill: "₹8400",
+        status: "Pending",
+      },
+      {
+        id: 3,
+        name: "Karthi",
+        checkindate: "1-02-23",
+        checkoutdate: "4-03-23",
+        roomtypes: "Two sharing",
+        bill: "₹2400",
+        status: "Failed",
+      },
+      {
+        id: 4,
+        name: "Abhi",
+        checkindate: "10-10-23",
+        checkoutdate: "11-10-23",
+        roomtypes: "Two sharing",
+        bill: "₹800",
+        status: "Paid",
+      },
+      {
+        id: 5,
+        name: "Midhun",
+        checkindate: "01-01-23",
+        checkoutdate: "01-02-23",
+        roomtypes: "Single Bed",
+        bill: "₹163800",
+        status: "Paid",
+      },
+      {
+        id: 6,
+        name: "John",
+        checkindate: "23-09-23",
+        checkoutdate: "24-09-23",
+        roomtypes: "6 comfort sharing",
+        bill: "₹1600",
+        status: "Paid",
+      },
+      {
+        id: 7,
+        name: "Doe",
+        checkindate: "2-09-23",
+        checkoutdate: "4-09-23",
+        roomtypes: "6 comfort sharing",
+        bill: "₹3200",
+        status: "Failed",
+      },
+      {
+        id: 8,
+        name: "Hariharan",
+        checkindate: "12-12-23",
+        checkoutdate: "31-12-23",
+        roomtypes: "Single Cot",
+        bill: "₹11400",
+        status: "Advance Paid",
+      },
+      {
+        id: 9,
+        name: "Mohan",
+        checkindate: "3-09-23",
+        checkoutdate: "4-09-23",
+        roomtypes: "4 sharing Dulexe",
+        bill: "₹1200",
+        status: "Paid",
+      },
+      {
+        id: 10,
+        name: "John Doe",
+        checkindate: "23-09-23",
+        checkoutdate: "24-09-23",
+        roomtypes: "Two sharing",
+        bill: "₹800",
+        status: "Paid",
+      },
+    ];
+  
+  
+  export default List;
+  
