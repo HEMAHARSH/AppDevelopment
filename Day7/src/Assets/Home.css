@@ -1,0 +1,67 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+}
+.homebody {
+    background-image: url("../Images/loginbg.avif");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    height: 280vh;
+    z-index: 4;
+  }
+  
+  #layerhome {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 280vh;
+    background-color: #19171a;
+    opacity: 0.89;
+    z-index: 3;
+    
+  }
+#imagehome {
+  background-color: rgb(26, 0, 0);
+  opacity: 10;
+  border: 1px solid rgb(131, 130, 130);
+  box-shadow: 6px 6px rgb(254, 253, 253);
+  border-radius: 10px;
+  position: relative;
+  margin-left: 190px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-right: 260px;
+  height: 50%;
+  width: 70%;
+  z-index: 1;
+}
+
+#listcart {
+  color: rgb(252, 254, 254);
+  position: absolute;
+  left: 68%;
+  margin-top: -19%;
+  z-index: 2;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
