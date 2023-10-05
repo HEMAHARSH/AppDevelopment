@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("./Poppins-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body {
+  background-image: url("../Images/loginbg.avif");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+} 
+
+
+.layer {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #19171a;
+  opacity: 0.89;
+}
+
+.cover2{
+  background-color: #f0edf093;
+  opacity: 0.9;  
+ margin-top: 12vh;
+  height:75vh;
+  width:69vh;
+  position: absolute;
+  margin-left: 120vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  align-items: center;
+  box-shadow: 0 0.188em 1.55em #fffefd;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+input {
+  background-color: rgb(229, 226, 226);
+  width: 50%;
+  border-radius: 0.25em;
+  margin: 0.5em;
+  text-align: center;
+  color: #1a0303;
+ 
+}
+span{
+  margin-top: -10px;
+}
+input:focus {
+  outline-color: #070607;
+}
+
+.signup-btn1 {
+  width: 49%;
+  min-height: 5vh;
+  margin-bottom: 4em;
+  margin-top: 2vh;
+ 
+  text-align: center;
+  background-color:#331a00  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: rgb(252, 253, 254);
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.signup-btn1:hover {
+  transform: scale(1.05);
+}
+
+#username,#password,#email,#mobile{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -3px;
+  margin-top: 2px;
+}
+.signuptxt1 {
+    
+  padding-top: 12%;
+  font-size: 21px;
+  color: #fefdfd;
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+  .cover {
+    width: 60%;
+    height: 70%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+  .cover {
+    left: 32%;
+    width: 30%;
+    height: 65%;
+  }
+}
