@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("./Poppins-Regular.ttf");
+  font-size: 36px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+span{
+  margin-top: -10px;
+}
+.cover1{
+    background-color: #f0edf093;
+    opacity: 0.9;
+    margin-top: 12vh;
+    height: 75vh;
+    margin-left: 120vh;
+    width: 69vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    align-items: center;
+    box-shadow: 0 0.188em 1.55em  #fffefd;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+input {
+  background-color: rgb(229, 226, 226);
+  width: 50%;
+  min-height: 6vh;
+  border-radius: 0.25em;
+  margin: 0.5em;
+  
+  text-align: center;
+  color: #1a0303;
+  font-family: "Acme", sans-serif;
+  font-size: 14px;
+}
+
+input:focus {
+  outline-color: #070607;
+}
+
+.login-btn {
+  width: 49%;
+  min-height: 5vh;
+  margin-bottom: 4em;
+  margin-top: 3vh;
+
+  text-align: center;
+  background-color:#331a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: rgb(252, 253, 254);
+  font-family: "Acme", sans-serif;
+ 
+}
+
+
+
+.login-btn:hover {
+  transform: scale(1.05);
+}
+
+.account {
+  padding-bottom: 18vh;
+  margin-top: -8vh;
+  margin-bottom: 2vh;
+  font-size: 20px;
+}
+
+
+.logintxt {
+  font-size: 30px;
+  padding-top: 19%;
+  padding-bottom: 1vh;
+  color: #331a00 ;
+}
+.signup-btn {
+  width: 34vh;
+  height: 5vh;
+  margin-top: -18vh;
+  text-align: center;
+  background-color:#331a00  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: rgb(252, 253, 254);
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+  .cover {
+    width: 60%;
+    height: 70%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+  .cover {
+    left: 32%;
+    width: 30%;
+    height: 65%;
+  }
+}
